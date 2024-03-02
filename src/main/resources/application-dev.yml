@@ -1,0 +1,18 @@
+logging:
+  level:
+    ROOT: INFO
+    com.vishal.transactions: DEBUG
+    
+server:
+  port: 8080
+    
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transactions
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    

@@ -13,6 +13,10 @@ You can change port from application.yml using server.port
 You need to give postgresql connection details in application.yml file
 For running integration test and building it is using h2 in mem db
 
+For Testing API you can use Swagger UI
+Link : http://localhost:8080/swagger-ui/index.html
+Open API 3 Docs : http://localhost:8080/swagger-ui/index.html
+
 
 ## Building for deployment
 
